@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Tallest Building",
+    "description": "Dubai's Burj Khalifa is the tallest building in the world, standing at a breathtaking 828 meters (2,717 feet). It has 163 floors and features a stunning observation deck that provides panoramic views of the desert city. The skyscraper was designed to withstand strong winds and extreme temperatures.",
+    "price": 75
+  },
+  {
+    "id": 2,
+    "name": "Most Populated City",
+    "description": "Tokyo, Japan, is the most densely populated urban area, with over 37 million residents in its metropolitan region. The city boasts an incredible blend of futuristic skyscrapers and ancient temples, and its transportation system handles millions of daily commuters efficiently.",
+    "price": 120
+  },
+  {
+    "id": 3,
+    "name": "City with the Most Billionaires",
+    "description": "New York City is home to the highest number of billionaires, with over 100 residing in the city. The financial hub of the world, NYC is known for Wall Street, luxury real estate, and some of the most expensive art collections ever assembled.",
+    "price": 115
+  },
+  {
+    "id": 4,
+    "name": "City with the Most Restaurants",
+    "description": "Paris, France, is often called the 'culinary capital of the world,' with over 40,000 restaurants. From Michelin-star fine dining to cozy bistros, the city offers an unparalleled food scene, making it a paradise for gourmets and food lovers alike.",
+    "price": 85
+  },
+  {
+    "id": 5,
+    "name": "City with the Most Skyscrapers",
+    "description": "Hong Kong has the most skyscrapers in the world, with over 500 buildings taller than 150 meters (492 feet). The city’s dramatic skyline is defined by its densely packed high-rises, a necessity due to the region’s mountainous terrain and limited land availability.",
+    "price": 110
+  },
+  {
+    "id": 6,
+    "name": "Rainiest City",
+    "description": "Mawsynram, India, holds the title of the rainiest city in the world, receiving an average annual rainfall of about 467 inches (11,871 mm). The monsoon season lasts for months, turning the landscape into lush greenery, making it a unique and breathtaking place.",
+    "price": 70
+  },
+  {
+    "id": 7,
+    "name": "City with the Largest Underground Shopping Complex",
+    "description": "Toronto, Canada, features PATH, the largest underground shopping complex in the world. Stretching over 30 kilometers (19 miles), PATH connects office buildings, transit stations, and over 1,200 stores, allowing residents to shop, eat, and commute without stepping outside.",
+    "price": 90
+  },
+  {
+    "id": 8,
+    "name": "Most Expensive City",
+    "description": "Singapore is ranked as the most expensive city in the world due to its high cost of living, real estate, and luxury goods. With strict regulations on car ownership and high property prices, living in Singapore comes at a premium, but it offers world-class infrastructure and safety.",
+    "price": 130
+  },
+  {
+    "id": 9,
+    "name": "City with the Largest Chinatown Outside Asia",
+    "description": "San Francisco is home to the largest Chinatown outside of Asia. Established in the 1840s, it features historic temples, traditional herbal medicine shops, and authentic Chinese cuisine, drawing millions of visitors annually.",
+    "price": 65
+  },
+  {
+    "id": 10,
+    "name": "City with the Largest Subway System",
+    "description": "The Shanghai Metro is the world's largest subway system, with over 800 kilometers (497 miles) of track and 400 stations. Serving millions of passengers daily, it connects distant parts of the city with high-speed efficiency.",
+    "price": 105
+  },
+  {
+    "id": 11,
+    "name": "City with the Most Trees",
+    "description": "Johannesburg, South Africa, is often referred to as the 'world’s largest man-made forest,' with over 10 million trees planted in and around the city. These trees help reduce air pollution, provide shade, and create an oasis in the urban environment.",
+    "price": 95
+  },
+  {
+    "id": 12,
+    "name": "City with the Largest Carnival Celebration",
+    "description": "Rio de Janeiro, Brazil, hosts the world’s largest carnival celebration, drawing millions of visitors every year. The city comes alive with samba parades, elaborate costumes, and non-stop parties that showcase Brazil's vibrant culture and love for music and dance.",
+    "price": 80
+  }
+]

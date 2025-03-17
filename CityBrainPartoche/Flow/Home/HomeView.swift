@@ -5,7 +5,7 @@ struct HomeView: View {
     @StateObject var viewModel: HomeViewModel
     
     var body: some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 10) {
             Spacer()
             Button("Start game") {
                 viewModel.start()
@@ -22,11 +22,11 @@ struct HomeView: View {
             }
             .secondary
             .padding(.horizontal, 12)
-//            Button("Collection") {
-//                viewModel.openCollection()
-//            }
-//            .secondary
-//            .padding(.horizontal, 12)
+            Button("Collection") {
+                viewModel.openCollection()
+            }
+            .secondary
+            .padding(.horizontal, 12)
             Button("Rating") {
                 viewModel.openRating()
             }
@@ -41,11 +41,11 @@ struct HomeView: View {
         .padding(.vertical, 12)
         .background(
             ZStack {
-                Image("main_h")
+                Image("main_v")
                     .resizable()
                     .scaledToFill()
-                    .opacity(0.1)
-                Color.black.opacity(0.4)
+                    .opacity(0.3)
+                Color.black.opacity(0.3)
             }
         )
         .sheet(isPresented: $viewModel.showNameeSheet) {
