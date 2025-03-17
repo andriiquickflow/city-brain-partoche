@@ -7,7 +7,7 @@ struct TipDetailsView: View {
     
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 8) {
+            VStack(alignment: .leading, spacing: 12) {
                 Text(viewModel.tip.name)
                     .fontSystem(.title)
                     .foregroundStyle(Color.tint)

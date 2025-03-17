@@ -58,7 +58,7 @@ struct CollectionView: View {
                 Text("You can earn balance only by participating in quiz. It cannot be topped up with real money.")
             }
         )
-        .navigationTitle("Collection")
+        .navigationTitle("Interesting Facts")
     }
 }
 

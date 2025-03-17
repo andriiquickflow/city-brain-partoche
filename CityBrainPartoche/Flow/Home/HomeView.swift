@@ -22,7 +22,7 @@ struct HomeView: View {
             }
             .secondary
             .padding(.horizontal, 12)
-            Button("Collection") {
+            Button("Interesting Facts") {
                 viewModel.openCollection()
             }
             .secondary
