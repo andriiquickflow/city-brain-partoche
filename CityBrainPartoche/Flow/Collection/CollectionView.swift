@@ -48,21 +48,21 @@ struct CollectionView: View {
         }
         .onAppear {
             viewModel.reload()
-            if !Storage.shared.isCollectionOpened {
-                Storage.shared.isCollectionOpened = true
-                showBalanceAlert = true
-            }
+//            if !Storage.shared.isCollectionOpened {
+//                Storage.shared.isCollectionOpened = true
+//                showBalanceAlert = true
+//            }
         }
-        .alert(
-            "Attention!",
-            isPresented: $showBalanceAlert,
-            actions: {
-                Button("Understood", role: .cancel) {}
-            },
-            message: {
-                Text("You can earn balance only by participating in quiz. It cannot be topped up with real money.")
-            }
-        )
+//        .alert(
+//            "Attention!",
+//            isPresented: $showBalanceAlert,
+//            actions: {
+//                Button("Understood", role: .cancel) {}
+//            },
+//            message: {
+//                Text("You can earn balance only by participating in quiz. It cannot be topped up with real money.")
+//            }
+//        )
         .navigationTitle("Interesting Facts")
     }
 }
