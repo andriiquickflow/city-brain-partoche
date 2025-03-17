@@ -16,7 +16,7 @@ struct TipRow: View {
                 Spacer()
                 Text("\(tip.price)")
                     .fontSystem(.accent)
-                Image("coins")
+                Image("brainBits")
                     .resizable()
                     .frame(width: 24, height: 24)
                     .foregroundStyle(Color.accent)

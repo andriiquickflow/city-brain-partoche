@@ -4,7 +4,7 @@ extension CollectionView {
     
     final class CollectionViewModel: ObservableObject {
         
-        @Published var coins: Int
+        @Published var brainBits: Int
         @Published var tips: [Tip]
         @Published var tipsPurchased: [Int]
         @Published var showError: Bool = false
@@ -13,13 +13,13 @@ extension CollectionView {
         
         init(router: Router) {
             self.router = router
-            self.coins = Storage.shared.coins
+            self.brainBits = Storage.shared.brainBits
             self.tips = LoadFileService().loadItems(file: .tips)
             self.tipsPurchased = Storage.shared.tipsPurchased
         }
         
         func reload() {
-            coins = Storage.shared.coins
+            brainBits = Storage.shared.brainBits
             tipsPurchased = Storage.shared.tipsPurchased
         }
         
@@ -28,13 +28,13 @@ extension CollectionView {
         }
         
         func handlePurchase(tip: Tip) {
-            if tip.price > coins {
+            if tip.price > brainBits {
                 showError = true
             } else {
                 var tipsPurchased = Storage.shared.tipsPurchased
                 tipsPurchased.append(tip.id)
                 Storage.shared.tipsPurchased = tipsPurchased
-                Storage.shared.coins = max(0, Storage.shared.coins - tip.price)
+                Storage.shared.brainBits = max(0, Storage.shared.brainBits - tip.price)
                 reload()
                 handleOpen(tip: tip)
             }

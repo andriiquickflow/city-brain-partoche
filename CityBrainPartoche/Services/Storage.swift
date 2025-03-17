@@ -16,7 +16,7 @@ extension Storage {
         case level
         case record
         case tipsPurchased
-        case coins
+        case brainBits
         case isCollectionOpened
     }
     
@@ -56,12 +56,12 @@ extension Storage {
         }
     }
     
-    var coins: Int {
+    var brainBits: Int {
         get {
-            get(for: Key.coins.rawValue) ?? 0
+            get(for: Key.brainBits.rawValue) ?? 0
         }
         set {
-            set(newValue, for: Key.coins.rawValue)
+            set(newValue, for: Key.brainBits.rawValue)
         }
     }
     

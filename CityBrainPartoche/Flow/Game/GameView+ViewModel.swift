@@ -73,7 +73,7 @@ extension GameView {
                     if score > Storage.shared.record {
                         Storage.shared.record = score
                     }
-                    Storage.shared.coins += score
+                    Storage.shared.brainBits += score
                     showResult = true
                 } else {
                     dismiss()

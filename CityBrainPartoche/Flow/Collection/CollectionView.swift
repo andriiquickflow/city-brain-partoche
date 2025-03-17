@@ -8,11 +8,11 @@ struct CollectionView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 8) {
-                Text("You can earn balance only by participating in quiz. It cannot be topped up with real money.")
-                    .multilineTextAlignment(.center)
-                    .fontSystem(.text)
-                    .foregroundStyle(Color.tertiary)
-                    .padding(.bottom, 12)
+//                Text("You can earn balance only by participating in quiz. It cannot be topped up with real money.")
+//                    .multilineTextAlignment(.center)
+//                    .fontSystem(.text)
+//                    .foregroundStyle(Color.tertiary)
+//                    .padding(.bottom, 12)
                 ForEach(viewModel.tips) { tip in
                     TipRow(
                         tip: tip,
@@ -31,11 +31,11 @@ struct CollectionView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack(spacing: 4) {
-                    Text("Balance:")
+                    Text("BrickBits:")
                         .fontSystem(.text)
-                    Text("\(viewModel.coins)")
+                    Text("\(viewModel.brainBits)")
                         .fontSystem(.accent)
-                    Image("coins")
+                    Image("brainBits")
                         .resizable()
                         .frame(width: 24, height: 24)
                         .foregroundStyle(Color.accent)
@@ -43,7 +43,7 @@ struct CollectionView: View {
                 .foregroundStyle(Color.tint)
             }
         }
-        .alert("You don’t have enough coins, participate in a quiz", isPresented: $viewModel.showError) {
+        .alert("You don’t have enough BrickBits, participate in a quiz", isPresented: $viewModel.showError) {
             Button("OK", role: .cancel) {}
         }
         .onAppear {

@@ -16,7 +16,7 @@ struct ResultView: View {
             HStack(spacing: 4) {
                 Text("Your Score: \(score)")
                     .fontSystem(.accent)
-                Image("coins")
+                Image("brainBits")
                     .resizable()
                     .frame(width: 24, height: 24)
                     .foregroundStyle(Color.accent)
