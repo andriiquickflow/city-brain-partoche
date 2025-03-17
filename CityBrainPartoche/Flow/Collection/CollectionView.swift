@@ -8,6 +8,11 @@ struct CollectionView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 8) {
+                Text("You can earn balance only by participating in quiz. It cannot be topped up with real money.")
+                    .multilineTextAlignment(.center)
+                    .fontSystem(.text)
+                    .foregroundStyle(Color.tertiary)
+                    .padding(.bottom, 12)
                 ForEach(viewModel.tips) { tip in
                     TipRow(
                         tip: tip,

@@ -36,6 +36,6 @@ struct TipDetailsView: View {
         .sheet(isPresented: $showSharing) {
             ActivityViewController(activityItems: [viewModel.textToShare])
         }
-        .navigationTitle("Tip Details")
+        .navigationTitle("Interesting Fact")
     }
 }
