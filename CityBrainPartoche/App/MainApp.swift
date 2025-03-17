@@ -4,7 +4,7 @@ import SwiftUI
 struct MainApp: App {
     
     init() {
-//        SoundService.shared.startAudio()
+        SoundService.shared.startAudio()
     }
     
     var body: some Scene {
