@@ -17,7 +17,6 @@ extension Storage {
         case record
         case tipsPurchased
         case brainBits
-        case isCollectionOpened
     }
     
     var level: Level {
@@ -64,17 +63,6 @@ extension Storage {
             set(newValue, for: Key.brainBits.rawValue)
         }
     }
-    
-    var isCollectionOpened: Bool {
-        get {
-            get(for: Key.isCollectionOpened.rawValue) ?? false
-        }
-        set {
-            set(newValue, for: Key.isCollectionOpened.rawValue)
-        }
-    }
-    
-    
 }
 
 private extension Storage {

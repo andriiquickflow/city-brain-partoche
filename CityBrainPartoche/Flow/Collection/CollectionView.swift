@@ -3,16 +3,10 @@ import SwiftUI
 struct CollectionView: View {
     
     @StateObject var viewModel: CollectionViewModel
-    @State var showBalanceAlert: Bool = false
     
     var body: some View {
         ScrollView {
             VStack(spacing: 8) {
-//                Text("You can earn balance only by participating in quiz. It cannot be topped up with real money.")
-//                    .multilineTextAlignment(.center)
-//                    .fontSystem(.text)
-//                    .foregroundStyle(Color.tertiary)
-//                    .padding(.bottom, 12)
                 ForEach(viewModel.tips) { tip in
                     TipRow(
                         tip: tip,
@@ -48,21 +42,7 @@ struct CollectionView: View {
         }
         .onAppear {
             viewModel.reload()
-//            if !Storage.shared.isCollectionOpened {
-//                Storage.shared.isCollectionOpened = true
-//                showBalanceAlert = true
-//            }
         }
-//        .alert(
-//            "Attention!",
-//            isPresented: $showBalanceAlert,
-//            actions: {
-//                Button("Understood", role: .cancel) {}
-//            },
-//            message: {
-//                Text("You can earn balance only by participating in quiz. It cannot be topped up with real money.")
-//            }
-//        )
         .navigationTitle("Interesting Facts")
     }
 }
