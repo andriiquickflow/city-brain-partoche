@@ -1,0 +1,638 @@
+[
+  {
+    "categoryId": "1",
+    "title": "City History",
+    "questions": [
+      {
+        "id": "1",
+        "title": "What year was the city founded?",
+        "answers": [
+          {"text": "1624", "isCorrect": false},
+          {"text": "1750", "isCorrect": false},
+          {"text": "1801", "isCorrect": true },
+          {"text": "1905", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Who was the founder of the city?",
+        "answers": [
+          {"text": "John Smith"        , "isCorrect": false},
+          {"text": "Alexander Hamilton", "isCorrect": false},
+          {"text": "William Carter"    , "isCorrect": true },
+          {"text": "George Washington" , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Which historical event took place in the city in 1865?",
+        "answers": [
+          {"text": "The signing of the Constitution", "isCorrect": false},
+          {"text": "A major industrial revolution"  , "isCorrect": true },
+          {"text": "The city was named the capital" , "isCorrect": false},
+          {"text": "A devastating earthquake"       , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "4",
+        "title": "What was the city's original name?",
+        "answers": [
+          {"text": "New Amsterdam", "isCorrect": false},
+          {"text": "Fort Hill"    , "isCorrect": false},
+          {"text": "River Town"   , "isCorrect": true },
+          {"text": "Bay City"     , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Which famous leader gave a speech in the city in 1963?",
+        "answers": [
+          {"text": "Martin Luther King Jr.", "isCorrect": true },
+          {"text": "John F. Kennedy"       , "isCorrect": false},
+          {"text": "Franklin D. Roosevelt" , "isCorrect": false},
+          {"text": "Theodore Roosevelt"    , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Which industry played a key role in the city's early growth?",
+        "answers": [
+          {"text": "Automobile manufacturing", "isCorrect": false},
+          {"text": "Textile production"      , "isCorrect": true },
+          {"text": "Technology startups"     , "isCorrect": false},
+          {"text": "Oil refining"            , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "7",
+        "title": "What disaster struck the city in 1892?",
+        "answers": [
+          {"text": "A major fire" , "isCorrect": true },
+          {"text": "A flood"      , "isCorrect": false},
+          {"text": "A tornado"    , "isCorrect": false},
+          {"text": "An earthquake", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Which war had a significant impact on the city's development?",
+        "answers": [
+          {"text": "The Civil War"        , "isCorrect": true },
+          {"text": "World War I"          , "isCorrect": false},
+          {"text": "The Revolutionary War", "isCorrect": false},
+          {"text": "The Cold War"         , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "9",
+        "title": "What major infrastructure project was completed in 1925?",
+        "answers": [
+          {"text": "The main railway station", "isCorrect": true },
+          {"text": "The city airport"        , "isCorrect": false},
+          {"text": "The first subway line"   , "isCorrect": false},
+          {"text": "The tallest skyscraper"  , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Which famous writer lived in the city in the early 1900s?",
+        "answers": [
+          {"text": "Mark Twain"         , "isCorrect": false},
+          {"text": "Ernest Hemingway"   , "isCorrect": true },
+          {"text": "F. Scott Fitzgerald", "isCorrect": false},
+          {"text": "Edgar Allan Poe"    , "isCorrect": false}
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": "2",
+    "title": "Architecture & Landmarks",
+    "questions": [
+      {
+        "id": "11",
+        "title": "What is the tallest building in the city?",
+        "answers": [
+          {"text": "Grand Tower"    , "isCorrect": false},
+          {"text": "Skyline Peak"   , "isCorrect": true },
+          {"text": "Metro Plaza"    , "isCorrect": false},
+          {"text": "Heritage Center", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Which landmark is known as the city's oldest structure?",
+        "answers": [
+          {"text": "Old Town Hall"  , "isCorrect": true },
+          {"text": "Central Library", "isCorrect": false},
+          {"text": "City Cathedral" , "isCorrect": false},
+          {"text": "The Iron Bridge", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Which bridge is the most iconic in the city?",
+        "answers": [
+          {"text": "Golden Span Bridge"   , "isCorrect": true },
+          {"text": "River Crossing Bridge", "isCorrect": false},
+          {"text": "Liberty Bridge"       , "isCorrect": false},
+          {"text": "Sunset Arch"          , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "14",
+        "title": "What is the most visited tourist attraction in the city?",
+        "answers": [
+          {"text": "City Museum"    , "isCorrect": false},
+          {"text": "Sky Tower"      , "isCorrect": false},
+          {"text": "Historic Square", "isCorrect": true },
+          {"text": "Royal Palace"   , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Which famous architect designed the city's grand opera house?",
+        "answers": [
+          {"text": "Frank Lloyd Wright", "isCorrect": false},
+          {"text": "Gustave Eiffel"    , "isCorrect": false},
+          {"text": "Antonio Ramirez"   , "isCorrect": true },
+          {"text": "Le Corbusier"      , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "16",
+        "title": "What is the name of the city's main public square?",
+        "answers": [
+          {"text": "Liberty Plaza"  , "isCorrect": false},
+          {"text": "Victory Square" , "isCorrect": true },
+          {"text": "Heritage Circle", "isCorrect": false},
+          {"text": "Unity Square"   , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "17",
+        "title": "Which church is considered the most important religious landmark?",
+        "answers": [
+          {"text": "Saint John's Cathedral", "isCorrect": true },
+          {"text": "Holy Trinity Church"   , "isCorrect": false},
+          {"text": "Central Chapel"        , "isCorrect": false},
+          {"text": "Grace Basilica"        , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "18",
+        "title": "Which landmark is famous for its panoramic city view?",
+        "answers": [
+          {"text": "The Clock Tower"   , "isCorrect": false},
+          {"text": "Summit Observatory", "isCorrect": true },
+          {"text": "The Grand Arch"    , "isCorrect": false},
+          {"text": "Skyline Plaza"     , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "19",
+        "title": "Which historical monument was built to honor the city's founders?",
+        "answers": [
+          {"text": "The Founders’ Statue", "isCorrect": true },
+          {"text": "Liberty Obelisk"     , "isCorrect": false},
+          {"text": "The City Pillar"     , "isCorrect": false},
+          {"text": "Heritage Gate"       , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "20",
+        "title": "What is the most famous modern architectural structure in the city?",
+        "answers": [
+          {"text": "Infinity Tower"    , "isCorrect": true },
+          {"text": "The Innovation Hub", "isCorrect": false},
+          {"text": "Tech Park Dome"    , "isCorrect": false},
+          {"text": "Urban Spiral"      , "isCorrect": false}
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": "3",
+    "title": "Transport & Streets",
+    "questions": [
+      {
+        "id": "21",
+        "title": "What is the busiest street in the city?",
+        "answers": [
+          {"text": "Main Avenue"      , "isCorrect": false},
+          {"text": "Central Boulevard", "isCorrect": true },
+          {"text": "High Street"      , "isCorrect": false},
+          {"text": "Elm Road"         , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "22",
+        "title": "Which public transport system is the most used in the city?",
+        "answers": [
+          {"text": "Metro"  , "isCorrect": true },
+          {"text": "Tram"   , "isCorrect": false},
+          {"text": "Bus"    , "isCorrect": false},
+          {"text": "Trolley", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "23",
+        "title": "What is the oldest bridge in the city?",
+        "answers": [
+          {"text": "King’s Bridge"        , "isCorrect": false},
+          {"text": "Heritage Bridge"      , "isCorrect": true },
+          {"text": "River Crossing Bridge", "isCorrect": false},
+          {"text": "Sunset Bridge"        , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "24",
+        "title": "Which highway connects the city to the neighboring region?",
+        "answers": [
+          {"text": "Route 55"       , "isCorrect": false},
+          {"text": "Interstate 22"  , "isCorrect": false},
+          {"text": "Expressway 10"  , "isCorrect": true },
+          {"text": "Coastal Highway", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "25",
+        "title": "What is the name of the central train station?",
+        "answers": [
+          {"text": "Union Station"    , "isCorrect": true },
+          {"text": "Grand Central"    , "isCorrect": false},
+          {"text": "Downtown Terminal", "isCorrect": false},
+          {"text": "City Link Hub"    , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "26",
+        "title": "Which street is famous for its shopping district?",
+        "answers": [
+          {"text": "Broadway"      , "isCorrect": false},
+          {"text": "Madison Street", "isCorrect": false},
+          {"text": "Fashion Lane"  , "isCorrect": true },
+          {"text": "Sunset Avenue" , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "27",
+        "title": "Which public transport route is the longest in the city?",
+        "answers": [
+          {"text": "Metro Line 1"   , "isCorrect": false},
+          {"text": "Tram Route 5"   , "isCorrect": false},
+          {"text": "Bus Line 12"    , "isCorrect": true },
+          {"text": "Trolley Route 3", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "28",
+        "title": "Which transport hub is the busiest in the city?",
+        "answers": [
+          {"text": "Main Bus Terminal"    , "isCorrect": false},
+          {"text": "Central Train Station", "isCorrect": true },
+          {"text": "Metro Hub 3"          , "isCorrect": false},
+          {"text": "Regional Airport"     , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "29",
+        "title": "What is the city's most iconic pedestrian street?",
+        "answers": [
+          {"text": "Park Avenue"         , "isCorrect": false},
+          {"text": "Liberty Walk"        , "isCorrect": true },
+          {"text": "Riverfront Promenade", "isCorrect": false},
+          {"text": "Grand Boulevard"     , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "30",
+        "title": "Which form of transport was first introduced in the city?",
+        "answers": [
+          {"text": "Horse-drawn trams", "isCorrect": true },
+          {"text": "Electric buses"   , "isCorrect": false},
+          {"text": "Subways"          , "isCorrect": false},
+          {"text": "Steam trains"     , "isCorrect": false}
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": "4",
+    "title": "Culture & Art",
+    "questions": [
+      {
+        "id": "31",
+        "title": "Which museum is the most famous in the city?",
+        "answers": [
+          {"text": "Modern Art Museum"       , "isCorrect": false},
+          {"text": "City Heritage Museum"    , "isCorrect": true },
+          {"text": "National History Gallery", "isCorrect": false},
+          {"text": "Contemporary Arts Center", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "32",
+        "title": "Which festival is the biggest cultural event in the city?",
+        "answers": [
+          {"text": "Summer Music Festival"      , "isCorrect": false},
+          {"text": "International Film Festival", "isCorrect": true },
+          {"text": "City Food Carnival"         , "isCorrect": false},
+          {"text": "Street Arts Festival"       , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "33",
+        "title": "What is the name of the city’s most famous theater?",
+        "answers": [
+          {"text": "Grand Stage Theater" , "isCorrect": false},
+          {"text": "Royal Opera House"   , "isCorrect": true },
+          {"text": "Cultural Arts Center", "isCorrect": false},
+          {"text": "Heritage Drama Hall" , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "34",
+        "title": "Which artist is most closely associated with the city?",
+        "answers": [
+          {"text": "Pablo Picasso"    , "isCorrect": false},
+          {"text": "Leonardo da Vinci", "isCorrect": false},
+          {"text": "Emma Clarkson"    , "isCorrect": true },
+          {"text": "Vincent van Gogh" , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "35",
+        "title": "What is the most famous public artwork in the city?",
+        "answers": [
+          {"text": "The Liberty Mural"       , "isCorrect": false},
+          {"text": "The Rising Sun Sculpture", "isCorrect": true },
+          {"text": "The Unity Fountain"      , "isCorrect": false},
+          {"text": "The Golden Arch"         , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "36",
+        "title": "Which genre of music is most connected to the city’s culture?",
+        "answers": [
+          {"text": "Jazz"     , "isCorrect": true },
+          {"text": "Rock"     , "isCorrect": false},
+          {"text": "Classical", "isCorrect": false},
+          {"text": "Pop"      , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "37",
+        "title": "What is the oldest cultural landmark in the city?",
+        "answers": [
+          {"text": "The Royal Palace"          , "isCorrect": false},
+          {"text": "The Grand Cathedral"       , "isCorrect": false},
+          {"text": "The Old City Amphitheater" , "isCorrect": true },
+          {"text": "The Historic Market Square", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "38",
+        "title": "Which cultural event attracts the most tourists?",
+        "answers": [
+          {"text": "The Fashion Week"               , "isCorrect": false},
+          {"text": "The International Film Festival", "isCorrect": true },
+          {"text": "The Literary Fair"              , "isCorrect": false},
+          {"text": "The Digital Art Expo"           , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "39",
+        "title": "Which library is the most significant in the city?",
+        "answers": [
+          {"text": "City Knowledge Hub"         , "isCorrect": false},
+          {"text": "Grand Public Library"       , "isCorrect": true },
+          {"text": "National Archives"          , "isCorrect": false},
+          {"text": "Metropolitan Reading Center", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "40",
+        "title": "Which form of street art is most popular in the city?",
+        "answers": [
+          {"text": "Graffiti Murals"   , "isCorrect": true },
+          {"text": "Street Sculptures" , "isCorrect": false},
+          {"text": "Performance Art"   , "isCorrect": false},
+          {"text": "Projection Mapping", "isCorrect": false}
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": "5",
+    "title": "Geography & Nature",
+    "questions": [
+      {
+        "id": "41",
+        "title": "What is the largest river flowing through the city?",
+        "answers": [
+          {"text": "Blue River"     , "isCorrect": false},
+          {"text": "Grand River"    , "isCorrect": true },
+          {"text": "Silver Creek"   , "isCorrect": false},
+          {"text": "East Bay Stream", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "42",
+        "title": "Which mountain is closest to the city?",
+        "answers": [
+          {"text": "Evergreen Peak" , "isCorrect": true },
+          {"text": "Rocky Summit"   , "isCorrect": false},
+          {"text": "Golden Ridge"   , "isCorrect": false},
+          {"text": "Crystal Heights", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "43",
+        "title": "What is the largest park in the city?",
+        "answers": [
+          {"text": "Sunset Park"   , "isCorrect": false},
+          {"text": "Central Green" , "isCorrect": true },
+          {"text": "Meadow Gardens", "isCorrect": false},
+          {"text": "Heritage Park" , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "44",
+        "title": "Which lake is located within city limits?",
+        "answers": [
+          {"text": "Emerald Lake"  , "isCorrect": true },
+          {"text": "Silver Bay"    , "isCorrect": false},
+          {"text": "Crystal Waters", "isCorrect": false},
+          {"text": "Moonlight Pond", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "45",
+        "title": "What type of climate does the city have?",
+        "answers": [
+          {"text": "Tropical"     , "isCorrect": false},
+          {"text": "Mediterranean", "isCorrect": false},
+          {"text": "Temperate"    , "isCorrect": true },
+          {"text": "Desert"       , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "46",
+        "title": "Which natural disaster is most common in the city?",
+        "answers": [
+          {"text": "Earthquakes", "isCorrect": false},
+          {"text": "Floods"     , "isCorrect": true },
+          {"text": "Tornadoes"  , "isCorrect": false},
+          {"text": "Wildfires"  , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "47",
+        "title": "Which protected nature reserve is near the city?",
+        "answers": [
+          {"text": "Golden Valley Reserve"  , "isCorrect": true },
+          {"text": "Blue Ridge Sanctuary"   , "isCorrect": false},
+          {"text": "Crystal Cove Park"      , "isCorrect": false},
+          {"text": "Evergreen Wildlife Area", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "48",
+        "title": "Which tree is most commonly found in the city?",
+        "answers": [
+          {"text": "Oak"  , "isCorrect": true },
+          {"text": "Pine" , "isCorrect": false},
+          {"text": "Maple", "isCorrect": false},
+          {"text": "Cedar", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "49",
+        "title": "What is the highest point in the city?",
+        "answers": [
+          {"text": "Sunrise Hill"    , "isCorrect": false},
+          {"text": "Grand View Point", "isCorrect": true },
+          {"text": "Mountain Lookout", "isCorrect": false},
+          {"text": "Eagle’s Peak"    , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "50",
+        "title": "Which bird species is a symbol of the city?",
+        "answers": [
+          {"text": "Bald Eagle"   , "isCorrect": false},
+          {"text": "Blue Jay"     , "isCorrect": false},
+          {"text": "Golden Falcon", "isCorrect": true },
+          {"text": "Red Robin"    , "isCorrect": false}
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": "6",
+    "title": "Modern Life",
+    "questions": [
+      {
+        "id": "51",
+        "title": "What is the most popular shopping mall in the city?",
+        "answers": [
+          {"text": "City Square Mall"       , "isCorrect": true },
+          {"text": "Downtown Plaza"         , "isCorrect": false},
+          {"text": "Grand Retail Hub"       , "isCorrect": false},
+          {"text": "Skyline Shopping Center", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "52",
+        "title": "Which sports team is the most popular in the city?",
+        "answers": [
+          {"text": "City Titans"   , "isCorrect": true },
+          {"text": "Skyhawks"      , "isCorrect": false},
+          {"text": "Urban Warriors", "isCorrect": false},
+          {"text": "Metro Strikers", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "53",
+        "title": "What is the most visited café in the city?",
+        "answers": [
+          {"text": "Sunrise Café"     , "isCorrect": false},
+          {"text": "Urban Brew"       , "isCorrect": true },
+          {"text": "Downtown Espresso", "isCorrect": false},
+          {"text": "The Coffee Spot"  , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "54",
+        "title": "Which annual event attracts the most tourists?",
+        "answers": [
+          {"text": "City Marathon"     , "isCorrect": false},
+          {"text": "Tech Expo"         , "isCorrect": true },
+          {"text": "Food Festival"     , "isCorrect": false},
+          {"text": "Music Awards Night", "isCorrect": false}
+        ]
+      },
+      {
+        "id": "55",
+        "title": "What is the most commonly used ride-sharing service in the city?",
+        "answers": [
+          {"text": "CityCab"  , "isCorrect": false},
+          {"text": "GoRide"   , "isCorrect": false},
+          {"text": "UrbanTaxi", "isCorrect": false},
+          {"text": "FastMove" , "isCorrect": true }
+        ]
+      },
+      {
+        "id": "56",
+        "title": "Which district is known for its nightlife?",
+        "answers": [
+          {"text": "Greenwood"      , "isCorrect": false},
+          {"text": "Downtown"       , "isCorrect": true },
+          {"text": "Heritage Square", "isCorrect": false},
+          {"text": "West Side"      , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "57",
+        "title": "Which social media influencer is the most famous in the city?",
+        "answers": [
+          {"text": "Emma Vlogs"   , "isCorrect": false},
+          {"text": "Jake Travel"  , "isCorrect": false},
+          {"text": "Sophia Trends", "isCorrect": true },
+          {"text": "Alex Fitness" , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "58",
+        "title": "What is the city's most used mobile payment app?",
+        "answers": [
+          {"text": "PayGo"      , "isCorrect": false},
+          {"text": "CityPay"    , "isCorrect": true },
+          {"text": "QuickWallet", "isCorrect": false},
+          {"text": "MetroPay"   , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "59",
+        "title": "Which tech company has its headquarters in the city?",
+        "answers": [
+          {"text": "FutureTech"        , "isCorrect": true },
+          {"text": "Global Innovations", "isCorrect": false},
+          {"text": "Metro AI"          , "isCorrect": false},
+          {"text": "NextGen Labs"      , "isCorrect": false}
+        ]
+      },
+      {
+        "id": "60",
+        "title": "What is the most popular fitness trend in the city?",
+        "answers": [
+          {"text": "CrossFit"     , "isCorrect": false},
+          {"text": "Outdoor Yoga" , "isCorrect": true },
+          {"text": "Spin Classes" , "isCorrect": false},
+          {"text": "HIIT Training", "isCorrect": false}
+        ]
+      }
+    ]
+  }
+]
