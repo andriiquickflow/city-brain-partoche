@@ -22,6 +22,12 @@ struct HomeView: View {
             }
             .secondary
             .padding(.horizontal, 12)
+            Button("Daily Task") {
+                viewModel.openDailyTask()
+            }
+            .secondary
+            .padding(.horizontal, 12)
+            
             Button("Interesting Facts") {
                 viewModel.openCollection()
             }

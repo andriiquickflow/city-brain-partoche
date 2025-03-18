@@ -17,6 +17,8 @@ extension Storage {
         case record
         case tipsPurchased
         case brainBits
+        case taskLastDate
+        case taskId
     }
     
     var level: Level {
@@ -61,6 +63,24 @@ extension Storage {
         }
         set {
             set(newValue, for: Key.brainBits.rawValue)
+        }
+    }
+    
+    var taskLastDate: String? {
+        get {
+            get(for: Key.taskLastDate.rawValue)
+        }
+        set {
+            set(newValue, for: Key.taskLastDate.rawValue)
+        }
+    }
+    
+    var taskId: Int {
+        get {
+            get(for: Key.taskId.rawValue) ?? 0
+        }
+        set {
+            set(newValue, for: Key.taskId.rawValue)
         }
     }
 }

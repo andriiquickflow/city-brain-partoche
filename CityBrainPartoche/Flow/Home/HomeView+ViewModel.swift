@@ -28,6 +28,10 @@ extension HomeView {
             router.openTraining()
         }
         
+        func openDailyTask() {
+            router.openDailyTask()
+        }
+        
         func openCollection() {
             router.openCollection()
         }

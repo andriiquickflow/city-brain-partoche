@@ -2,7 +2,7 @@ import Foundation
 
 enum Files: String {
     
-    case questions, ratings, tips
+    case questions, ratings, tips, tasks
 }
 
 class LoadFileService {

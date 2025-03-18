@@ -32,6 +32,11 @@ final class Router {
         navigationService.push(view)
     }
     
+    func openDailyTask() {
+        let view = DailyTaskViewAssembly(navigationService: navigationService).view
+        navigationService.push(view)
+    }
+    
     func openCollection() {
         let view = CollectionViewAssembly(navigationService: navigationService).view
         navigationService.push(view)
